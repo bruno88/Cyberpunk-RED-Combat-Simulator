@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cyberpunk RED - Combat Simulator</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Cyberpunk RED - Combat Simulator</h1>
+    </header>
+    <div>
+        <select id="pc-select">
+            <option value="none">Select PC</option>
+        </select>
+        <select id="npc-select">
+            <option value="none">Select NPC</option>
+        </select>
+        <select id="attack-skill">
+            <option value="shoulderArms">Shoulder Arms</option>
+            <option value="autofire">Autofire</option>
+        </select>
+        <input type="number" name="rangeDV" id="rangeDV" value=13 placeholder="Range DV">
+        
+        <button id="btnStartSimulation">Start Simulation</button>
+        
+        <input type="number" name="numSimulations" id="numSimulations" value=13 placeholder="Number of Simulations">
+        <button id="btnRunMultipleSimulations">Run Multiple Simulation</button>
+    </div>
+
+    <div class="combat-log-box-align">
+        <div class="combat-log-box">
+            <pre id="combat-log-text" class="combat-log-text"></pre>
+        </div>
+    </div>
+    <script src="./js/index.js" type="module"></script>
+</body>
+
+</html>

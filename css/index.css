@@ -1,0 +1,30 @@
+/* body{
+    background-image: url(../assets/images/cyberpunk_background_ai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+} */
+
+.combat-log-box-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.combat-log-box {
+    width: 1000px;
+    /* height should start with 400px, but increase with the text content */
+    height: 400px;
+    overflow: auto;
+    background-color: black;
+    color: white;
+    text-align: center; 
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid black;
+}
+
+.combat-log-text {
+    text-align: left;
+    margin: 20px 20px 20px 20px;
+}
